@@ -1,40 +1,69 @@
-body{
-	background-color: #fffaea;
+
+
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,400i,700");
+
+$bg: #313942;
+$ghost: #528cce;
+$heading: #e7ebf2;
+
+*,
+*:after,
+*:before {
+  box-sizing: border-box;
 }
 
-.contain{
-	height: 400px;
-	width: 400px;
-	left: 50%;
-	top: 50%;
-	position: absolute;
-	transform: translatex(-50%) translatey(-50%);
-	svg{
-		vertical-align: top;
-		width: 100%;
-		.beer{
-			animation-name: empty;
-			animation-fill-mode: forwards;
-			animation-duration: 4s;
-			animation-timing-function: linear;
-			fill: #F9CF68;
-		}
-	}
+body {
+  background-color: $bg;
+  font-family: 'Montserrat', sans-serif;
 }
-@keyframes empty{
-	0%{
-		clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
-	} 
-	30%{
-		clip-path: polygon(0 16%, 100% 12%, 100% 100%, 0% 100%);
-	}
-	50%{
-		clip-path: polygon(0 40%, 100% 44%, 100% 100%, 0% 100%);
-	}
-	70%{
-		clip-path: polygon(0 69%, 100% 66%, 100% 100%, 0% 100%);
-	}
-	100%{
-		clip-path: polygon(0 100%, 100% 100%, 100% 100%, 0% 100%);
-	}
+
+main {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  justify-content: center;
+  text-align: center;
 }
+
+h1 {
+  color: $heading;
+  font-size: 12.5rem;
+  letter-spacing: .10em;
+  margin: .025em 0;
+  text-shadow: .05em .05em 0 rgba(0,0,0,.25);
+  white-space: nowrap;
+  
+  @media(max-width: 30rem) {
+    font-size: 8.5rem;
+  }
+  
+  & > span {
+    animation: spooky 2s alternate infinite linear;
+    color: $ghost;
+    display: inline-block;
+  }
+}
+
+h2 {
+  color: $heading;
+  margin-bottom: .40em;
+}
+
+p {
+  color: #ccc;
+  margin-top: 0;
+}
+
+@keyframes spooky {
+  from {
+    transform: translatey(.15em) scaley(.95);
+  }
+  
+  to {
+    transform: translatey(-.15em);
+  }
+}
+
+View Compiled
+
