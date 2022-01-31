@@ -1,14 +1,14 @@
 #-------------------------------
 # General Site Settings
 
-title: Kross
+title: Pavan Kumar Kandapagari
 logo: 
-author: themefisher
-description: this is meta description
-email: steve.fruits@email.com
-phone: +880 2544 658 256
-address: 125/A, CA Commercial Area, California, USA
-copyright: Copyright &copy; 2020 Designed by [Themefisher](https://themefisher.com) & Developed by [Getjekyllthemes](https://getjekyllthemes.com)
+author: Pavan Kumar Kandapagari
+description: This page is for personal use only.
+email: 785pavan@gmail.com
+phone: +49 1573 946 7478
+address: Sollner str. 71A, Munchen
+copyright: Copyright &copy; 2022 pavan
 
 menu:
 - {name: About, link: '/about'}
@@ -38,7 +38,7 @@ disqus-identifier: # Add your shortname for Disqus Comment. For example mr-brown
 # Hero Section
 
 hero:
-  hero-title: Hi! I’m <br> Christoher <br> UX designer
+  hero-title: Hi! I’m <br> Pavan Kumar <br> Deep Learing Engineer
 
 social:
 - {icon: "ti-facebook", link: "#"}
@@ -52,7 +52,7 @@ social:
 
 # About Section
 blurb:
-  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+ I am a Deep Learing Engineer at Agile robots Germany.
 
 blurb-btn-link: '/about'
 blurb-btn-name: know more
@@ -65,14 +65,14 @@ work-process:
   - title : "Research and Plan"
     icon : "assets/images/icons/plan.png"
     content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    
-  - title : "Design and Develop"
-    icon : "assets/images/icons/design.png"
-    content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    
-  - title : "Deliver"
-    icon : "assets/images/icons/print.png"
-    content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+
+#  - title : "Design and Develop"
+#    icon : "assets/images/icons/design.png"
+#    content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+#
+#  - title : "Deliver"
+#    icon : "assets/images/icons/print.png"
+#    content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
 
 
 # My Team Section
@@ -81,13 +81,13 @@ team:
     image : "assets/images/team/member-1.png"
     designation : "Project Manager"
     
-  - title : "Julias Carlie"
-    image : "assets/images/team/member-2.png"
-    designation : "Web Developer"
-    
-  - title : "John Doe"
-    image : "assets/images/team/member-3.png"
-    designation : "Designer"
+#  - title : "Julias Carlie"
+#    image : "assets/images/team/member-2.png"
+#    designation : "Web Developer"
+#
+#  - title : "John Doe"
+#    image : "assets/images/team/member-3.png"
+#    designation : "Designer"
 
 
 #-------------------------------
@@ -95,10 +95,10 @@ team:
 
 skills-title: Skills
 skills:
-- {name: Web Design, color: '#fdb157', value: '90%'}
+- {name: Python, color: '#fdb157', value: '90%'}
 - {name: Logo Design, color: '#9473e6', value: '60%'}
-- {name: After Effects, color: '#bdecf6', value: '80%'}
-- {name: Web App, color: '#ffbcaa', value: '70%'}
+#- {name: After Effects, color: '#bdecf6', value: '80%'}
+#- {name: Web App, color: '#ffbcaa', value: '70%'}
 
 
 #-------------------------------
@@ -107,8 +107,8 @@ skills:
 experience-title: Experience
 experience:
 - {name: Junior UX Designer, icon: 'icon-1.png', date: 'Jan 2007 - Feb 2009', organization: 'WEBEX'}
-- {name: UX & UI Designer, icon: 'icon-2.png', date: 'Mar 2009 - Aug 2014', organization: 'AUGMEDIX'}
-- {name: Senior UI Designer, icon: 'icon-3.png', date: 'Sep 2014 - Present', organization: 'THEMEFISHER'}
+#- {name: UX & UI Designer, icon: 'icon-2.png', date: 'Mar 2009 - Aug 2014', organization: 'AUGMEDIX'}
+#- {name: Senior UI Designer, icon: 'icon-3.png', date: 'Sep 2014 - Present', organization: 'THEMEFISHER'}
 
 
 #-------------------------------
@@ -116,10 +116,10 @@ experience:
 
 education-title: Education
 education:
-- {name: Marters in UX Design, date: '2006', organization: 'Masassusets Institute of Technology'}
-- {name: Honours in Fine Arts, date: '2004', organization: 'Harvard University'}
-- {name: Higher Secondary Certificat, date: '2000', organization: 'Cardiff School'}
-- {name: Secondary School Certificate, date: '1998', organization: 'Cardiff School'}
+- {name: Masters in DigitalEningeering, date: '2020', organization: 'Otto von Guericke University'}
+#- {name: Honours in Fine Arts, date: '2004', organization: 'Harvard University'}
+#- {name: Higher Secondary Certificat, date: '2000', organization: 'Cardiff School'}
+#- {name: Secondary School Certificate, date: '1998', organization: 'Cardiff School'}
 
 
 #-------------------------------
@@ -133,18 +133,18 @@ services:
     description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
     active: # Add true to select section
   }
-- {
-    name: UX Design,
-    icon: ti-vector,
-    description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
-    active: true # Add true to select section
-  }
-- {
-    name: Interaction Design,
-    icon: ti-panel,
-    description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
-    active: # Add true to select section
-  }
+#- {
+#    name: UX Design,
+#    icon: ti-vector,
+#    description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+#    active: true # Add true to select section
+#  }
+#- {
+#    name: Interaction Design,
+#    icon: ti-panel,
+#    description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+#    active: # Add true to select section
+#  }
 
 
 
@@ -156,33 +156,33 @@ portfolio-home-items:
   - image : "assets/images/portfolio/item-1.png"
     url: "#"
     
-  - image : "assets/images/portfolio/item-2.png"
-    url: "#"
-    
-  - image : "assets/images/portfolio/item-3.png"
-    url: "#"
-    
-  - image : "assets/images/portfolio/item-4.png"
-    url: "#"
-    
-  - image : "assets/images/portfolio/item-5.png"
-    url: "#"
+#  - image : "assets/images/portfolio/item-2.png"
+#    url: "#"
+#
+#  - image : "assets/images/portfolio/item-3.png"
+#    url: "#"
+#
+#  - image : "assets/images/portfolio/item-4.png"
+#    url: "#"
+#
+#  - image : "assets/images/portfolio/item-5.png"
+#    url: "#"
 
 
 # Portfolio Page
 portfolio-label:
 - {
-    title : "UI/UX Design",
+    title : "Software Developer",
     type : "design"
   }
-- {
-    title : "BRANDING",
-    type : "branding"
-  }
-- {
-    title : "ILLUSTRATION",
-    type : "illustration"
-  }
+#- {
+#    title : "BRANDING",
+#    type : "branding"
+#  }
+#- {
+#    title : "ILLUSTRATION",
+#    type : "illustration"
+#  }
 
 portfolio-items:
   - image : "assets/images/portfolio/item-1.png"
@@ -191,48 +191,48 @@ portfolio-items:
      - type: "design"
      - type: "illustration"
       
-  - image : "assets/images/portfolio/item-2.png"
-    url: "#"
-    portfolio-type:
-      - type: "branding"
-      
-  - image : "assets/images/portfolio/item-3.png"
-    url: "#"
-    portfolio-type:
-      - type: "illustration"
-      
-  - image : "assets/images/portfolio/item-6.png"
-    url: "#"
-    portfolio-type:
-      - type: "design"
-      - type: "branding"
-      
-  - image : "assets/images/portfolio/item-8.png"
-    url: "#"
-    portfolio-type:
-      - type: "illustration"
-      
-  - image : "assets/images/portfolio/item-5.png"
-    url: "#"
-    portfolio-type:
-      - type: "design"
-      
-  - image : "assets/images/portfolio/item-1.png"
-    url: "#"
-    portfolio-type:
-      - type: "branding"
-      
-  - image : "assets/images/portfolio/item-3.png"
-    url: "#"
-    portfolio-type:
-      - type: "design"
-      - type: "illustration"
-      - type: "branding"
-      
-  - image : "assets/images/portfolio/item-7.png"
-    url: "#"
-    portfolio-type:
-      - type: "illustration"
+#  - image : "assets/images/portfolio/item-2.png"
+#    url: "#"
+#    portfolio-type:
+#      - type: "branding"
+#
+#  - image : "assets/images/portfolio/item-3.png"
+#    url: "#"
+#    portfolio-type:
+#      - type: "illustration"
+#
+#  - image : "assets/images/portfolio/item-6.png"
+#    url: "#"
+#    portfolio-type:
+#      - type: "design"
+#      - type: "branding"
+#
+#  - image : "assets/images/portfolio/item-8.png"
+#    url: "#"
+#    portfolio-type:
+#      - type: "illustration"
+#
+#  - image : "assets/images/portfolio/item-5.png"
+#    url: "#"
+#    portfolio-type:
+#      - type: "design"
+#
+#  - image : "assets/images/portfolio/item-1.png"
+#    url: "#"
+#    portfolio-type:
+#      - type: "branding"
+#
+#  - image : "assets/images/portfolio/item-3.png"
+#    url: "#"
+#    portfolio-type:
+#      - type: "design"
+#      - type: "illustration"
+#      - type: "branding"
+#
+#  - image : "assets/images/portfolio/item-7.png"
+#    url: "#"
+#    portfolio-type:
+#      - type: "illustration"
 
 
 #-------------------------------
@@ -244,15 +244,15 @@ testimonial-items:
     designation : "CEO, Funder"
     content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, <strong>quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</strong> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
     
-  - name: "Jesica Gomez"
-    image: "assets/images/testimonial/client-1.png"
-    designation: "CEO, Funder"
-    content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, <strong>quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</strong> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
-    
-  - name: "Jesica Gomez"
-    image: "assets/images/testimonial/client-1.png"
-    designation: "CEO, Funder"
-    content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, <strong>quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</strong> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+#  - name: "Jesica Gomez"
+#    image: "assets/images/testimonial/client-1.png"
+#    designation: "CEO, Funder"
+#    content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, <strong>quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</strong> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+#
+#  - name: "Jesica Gomez"
+#    image: "assets/images/testimonial/client-1.png"
+#    designation: "CEO, Funder"
+#    content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, <strong>quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</strong> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
 
 
 #-------------------------------
@@ -262,35 +262,35 @@ client-slider-items:
   - logo: "assets/images/clients-logo/client-logo-1.png"
     url: "#"
     
-  - logo: "assets/images/clients-logo/client-logo-2.png"
-    url: "#"
-    
-  - logo: "assets/images/clients-logo/client-logo-3.png"
-    url: "#"
-    
-  - logo: "assets/images/clients-logo/client-logo-4.png"
-    url: "#"
-    
-  - logo: "assets/images/clients-logo/client-logo-5.png"
-    url: "#"
-    
-  - logo: "assets/images/clients-logo/client-logo-1.png"
-    url: "#"
-    
-  - logo: "assets/images/clients-logo/client-logo-2.png"
-    url: "#"
-    
-  - logo: "assets/images/clients-logo/client-logo-3.png"
-    url: "#"
-    
-  - logo: "assets/images/clients-logo/client-logo-4.png"
-    url: "#"
-    
-  - logo: "assets/images/clients-logo/client-logo-5.png"
-    url: "#"
+#  - logo: "assets/images/clients-logo/client-logo-2.png"
+#    url: "#"
+#
+#  - logo: "assets/images/clients-logo/client-logo-3.png"
+#    url: "#"
+#
+#  - logo: "assets/images/clients-logo/client-logo-4.png"
+#    url: "#"
+#
+#  - logo: "assets/images/clients-logo/client-logo-5.png"
+#    url: "#"
+#
+#  - logo: "assets/images/clients-logo/client-logo-1.png"
+#    url: "#"
+#
+#  - logo: "assets/images/clients-logo/client-logo-2.png"
+#    url: "#"
+#
+#  - logo: "assets/images/clients-logo/client-logo-3.png"
+#    url: "#"
+#
+#  - logo: "assets/images/clients-logo/client-logo-4.png"
+#    url: "#"
+#
+#  - logo: "assets/images/clients-logo/client-logo-5.png"
+#    url: "#"
 
 #-------------------------------
 # Contact Section
 
 contact-title: Contact Info
-contact-email: steve.fruits@email.com
+contact-email: 785pavan@gmail.com
