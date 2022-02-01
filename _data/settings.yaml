@@ -41,10 +41,10 @@ hero:
   hero-title: Hi! I’m <br> Pavan Kumar <br> A Deep Learing Engineer
 
 social:
-- {icon: "ti-facebook", link: "#"}
-- {icon: "ti-instagram", link: "#"}
+- {icon: "ti-facebook", link: "https://www.facebook.com/abhi619pavan"}
+- {icon: "ti-instagram", link: "https://linkedin.com/in/kandapagari"}
 - {icon: "ti-dribbble", link: "#"}
-- {icon: "ti-twitter", link: "#"}
+- {icon: "ti-twitter", link: "https://twitter.com/zephyr_347"}
 
 
 #-------------------------------
