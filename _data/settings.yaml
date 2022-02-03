@@ -36,7 +36,7 @@ disqus-identifier: # Add your shortname for Disqus Comment. For example mr-brown
 # Hero Section
 
 hero:
-  hero-title: Hi! I’m <br> Pavan Kumar <br> A Deep Learing Engineer
+  hero-title: Hi! I’m <br> Pavan Kumar <br> A Deep Learning Engineer
 
 social:
   - { icon: "ti-facebook", link: "https://www.facebook.com/abhi619pavan" }
@@ -48,7 +48,7 @@ social:
 # About (Section and Page)
 
 # About Section
-blurb: I am a Deep Learing Engineer currently working at Agile robots Germany.
+blurb: I am a Deep Learning Engineer currently working at Agile robots Germany.
 blurb-btn-link: "/about"
 blurb-btn-name: know more
 
