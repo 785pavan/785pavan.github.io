@@ -110,20 +110,32 @@ experience:
   - {
       name: Software Developer/Deep Learning Engineer,
       icon: "icon-1.png",
-      date: "Aug 2020 - Present",
-      organization: "Agile Robots AG",
+      date: "Aug 2021 - Present",
+      organization: "Agile Robots AG, Munich",
     }
   - {
-      name: UX & UI Designer,
+      name: Deep Learning Master Thesis,
       icon: "icon-2.png",
-      date: "Mar 2009 - Aug 2014",
-      organization: "AUGMEDIX",
+      date: "Sept 2020 - MAR 2021",
+      organization: "Bosch, CR/ACE, Hildesheim",
     }
   - {
-      name: Senior UI Designer,
+      name: Deep Learning Intern,
       icon: "icon-3.png",
-      date: "Sep 2014 - Present",
-      organization: "THEMEFISHER",
+      date: "MAR 2020 - AUG 2020",
+      organization: "Auvisus GmbH, Karlsruhe",
+    }
+  - {
+      name: Teaching Assistant,
+      icon: "icon-1.png",
+      date: "OCT 2019 - JAN 2020",
+      organization: "Otto Von Guericke Universität, Magdeburg",
+    }
+  - {
+      name: Production Engineer,
+      icon: "icon-2.png",
+      date: "JUL 2015 - AUG 2017",
+      organization: "Amara Raja Batteries, India",
     }
 
 #-------------------------------
