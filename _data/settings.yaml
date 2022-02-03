@@ -1,8 +1,9 @@
+---
 #-------------------------------
 # General Site Settings
 
 title: Pavan Kumar Kandapagari
-logo: 
+logo:
 author: Pavan Kumar Kandapagari
 description: This page is for personal use only.
 email: 785pavan@gmail.com
@@ -11,11 +12,10 @@ address: Sollner str. 71A, Munchen
 copyright: Copyright &copy; 2022 Pavan Kumar Kandapagari
 
 menu:
-- {name: About, link: '/about'}
-- {name: Blog, link: '/blog'}
-- {name: Portfolio, link: '/portfolio'}
-- {name: Contact, link: '/contact'}
-
+  - { name: About, link: "/about" }
+  - { name: Blog, link: "/blog" }
+  - { name: Portfolio, link: "/portfolio" }
+  - { name: Contact, link: "/contact" }
 
 #-------------------------------
 # Google Analytics Section
@@ -27,12 +27,10 @@ menu:
 
 google-analytics: # UA-XXXXXX-X
 
-
 #-------------------------------
 # Comment Section (Disqus)
 
 disqus-identifier: # Add your shortname for Disqus Comment. For example mr-brown
-
 
 #-------------------------------
 # Hero Section
@@ -41,46 +39,42 @@ hero:
   hero-title: Hi! I’m <br> Pavan Kumar <br> A Deep Learing Engineer
 
 social:
-- {icon: "ti-facebook", link: "https://www.facebook.com/abhi619pavan"}
-- {icon: "ti-instagram", link: "https://instagram.com/abhi_pavan_insta/"}
-- {icon: "ti-dribbble", link: "#"}
-- {icon: "ti-twitter", link: "https://twitter.com/zephyr_347"}
-
+  - { icon: "ti-facebook", link: "https://www.facebook.com/abhi619pavan" }
+  - { icon: "ti-instagram", link: "https://instagram.com/abhi_pavan_insta/" }
+  - { icon: "ti-github", link: "https://github.com/kandapagari" }
+  - { icon: "ti-twitter", link: "https://twitter.com/zephyr_347" }
 
 #-------------------------------
 # About (Section and Page)
 
 # About Section
-blurb:
- I am a Deep Learing Engineer at Agile robots Germany.
+blurb: I am a Deep Learing Engineer currently working at Agile robots Germany. While working as a Production Engineer, I felt a strong gravity towards the software side of things. Having always had an inquisitive mind, I started looking at the various software developments occurring in the technological world. This was when I got introduced to the field of Machine Learning and Automation. Being a Mechanical Engineer, the idea of self-driving cars and robotic arms intrigued me to the core. This was when I decided to resign from my old job and pursue a Masters in Digital Engineering. Coming to OVGU, opened up a portal of opportunities for me as I learned about the various technological advancements and software systems. After almost a year at OVGU, I have become a skilled coder in Java and Python and have made myself quite familiar with different Machine Learning algorithms and libraries. Along with my technological skill development, I have also had an overall development including in soft skills like analytical thinking capabilities, working in a team, leadership qualities, stress handling etc. With these developments, I plan to grow in a way so as to be able to work with the newest of technologies in the future and hopefully one day lead a team in a project that will create a difference in the world. At Agile Robots I worked with PyTorch for making an inhouse object detection solution as my first project. Later on I along with a team worked to integerate this project with a CI/CD pipeline on GitLab, which provided me with well needed experirence with a version control (git).
 
-blurb-btn-link: '/about'
+blurb-btn-link: "/about"
 blurb-btn-name: know more
-
 
 # About Page
 
 # Work Process Section
-work-process:
-  - title : "Research and Plan"
-    icon : "assets/images/icons/plan.png"
-    content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+# work-process:
+#   - title: "Research and Plan"
+#     icon: "assets/images/icons/plan.png"
+#     content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
 
-#  - title : "Design and Develop"
-#    icon : "assets/images/icons/design.png"
-#    content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-#
-#  - title : "Deliver"
-#    icon : "assets/images/icons/print.png"
-#    content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+#   - title : "Design and Develop"
+#     icon : "assets/images/icons/design.png"
+#     content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
 
+#   - title : "Deliver"
+#     icon : "assets/images/icons/print.png"
+#     content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
 
 # My Team Section
-team:
-  - title : "Jack Schenziwe"
-    image : "assets/images/team/member-1.png"
-    designation : "Project Manager"
-    
+# team:
+#   - title: "Jack Schenziwe"
+#     image: "assets/images/team/member-1.png"
+#     designation: "Project Manager"
+
 #  - title : "Julias Carlie"
 #    image : "assets/images/team/member-2.png"
 #    designation : "Web Developer"
@@ -89,16 +83,18 @@ team:
 #    image : "assets/images/team/member-3.png"
 #    designation : "Designer"
 
-
 #-------------------------------
 # Skills Section
 
 skills-title: Skills
 skills:
-- {name: Python, color: '#fdb157', value: '90%'}
-- {name: Logo Design, color: '#9473e6', value: '60%'}
-#- {name: After Effects, color: '#bdecf6', value: '80%'}
-#- {name: Web App, color: '#ffbcaa', value: '70%'}
+  - { name: Python, color: "#fdb157", value: "90%" }
+  - { name: Java, color: "#9473e6", value: "50%" }
+  - { name: Machine/Deep Learning, color: "#bdecf6", value: "85%" }
+  - { name: PyTorch, color: "#ffbcaa", value: "75%" }
+  - { name: Image Processing and computer vision, color: "#ffbcaa", value: "75%" }
+  - { name: PyTorch, color: "#ffbcaa", value: "75%" }
+  - { name: PyTorch, color: "#ffbcaa", value: "75%" }
 
 
 #-------------------------------
@@ -106,33 +102,40 @@ skills:
 
 experience-title: Experience
 experience:
-- {name: Junior UX Designer, icon: 'icon-1.png', date: 'Jan 2007 - Feb 2009', organization: 'WEBEX'}
+  - {
+      name: Junior UX Designer,
+      icon: "icon-1.png",
+      date: "Jan 2007 - Feb 2009",
+      organization: "WEBEX",
+    }
 #- {name: UX & UI Designer, icon: 'icon-2.png', date: 'Mar 2009 - Aug 2014', organization: 'AUGMEDIX'}
 #- {name: Senior UI Designer, icon: 'icon-3.png', date: 'Sep 2014 - Present', organization: 'THEMEFISHER'}
-
 
 #-------------------------------
 # Education Section
 
 education-title: Education
 education:
-- {name: Masters in DigitalEningeering, date: '2020', organization: 'Otto von Guericke University'}
+  - {
+      name: Masters in DigitalEningeering,
+      date: "2020",
+      organization: "Otto von Guericke University",
+    }
 #- {name: Honours in Fine Arts, date: '2004', organization: 'Harvard University'}
 #- {name: Higher Secondary Certificat, date: '2000', organization: 'Cardiff School'}
 #- {name: Secondary School Certificate, date: '1998', organization: 'Cardiff School'}
-
 
 #-------------------------------
 # Services Section
 
 services-title: Services
 services:
-- {
-    name: UI Design,
-    icon: ti-palette,
-    description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
-    active: # Add true to select section
-  }
+  - {
+      name: UI Design,
+      icon: ti-palette,
+      description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      active: ,# Add true to select section
+    }
 #- {
 #    name: UX Design,
 #    icon: ti-vector,
@@ -146,16 +149,14 @@ services:
 #    active: # Add true to select section
 #  }
 
-
-
 #-------------------------------
 # Portfolio (Section and Page)
 
 # Portfolio Home Section
 portfolio-home-items:
-  - image : "assets/images/portfolio/item-1.png"
+  - image: "assets/images/portfolio/item-1.png"
     url: "#"
-    
+
 #  - image : "assets/images/portfolio/item-2.png"
 #    url: "#"
 #
@@ -168,13 +169,9 @@ portfolio-home-items:
 #  - image : "assets/images/portfolio/item-5.png"
 #    url: "#"
 
-
 # Portfolio Page
 portfolio-label:
-- {
-    title : "Software Developer",
-    type : "design"
-  }
+  - { title: "Software Developer", type: "design" }
 #- {
 #    title : "BRANDING",
 #    type : "branding"
@@ -185,12 +182,12 @@ portfolio-label:
 #  }
 
 portfolio-items:
-  - image : "assets/images/portfolio/item-1.png"
+  - image: "assets/images/portfolio/item-1.png"
     url: "#"
     portfolio-type:
-     - type: "design"
-     - type: "illustration"
-      
+      - type: "design"
+      - type: "illustration"
+
 #  - image : "assets/images/portfolio/item-2.png"
 #    url: "#"
 #    portfolio-type:
@@ -234,16 +231,15 @@ portfolio-items:
 #    portfolio-type:
 #      - type: "illustration"
 
-
 #-------------------------------
 # Testimonials Section
 
 testimonial-items:
   - name: "Jesica Gomez"
     image: "assets/images/testimonial/client-1.png"
-    designation : "CEO, Funder"
-    content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, <strong>quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</strong> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
-    
+    designation: "CEO, Funder"
+    content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, <strong>quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</strong> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+
 #  - name: "Jesica Gomez"
 #    image: "assets/images/testimonial/client-1.png"
 #    designation: "CEO, Funder"
@@ -254,14 +250,13 @@ testimonial-items:
 #    designation: "CEO, Funder"
 #    content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, <strong>quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</strong> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
 
-
 #-------------------------------
 # Client Slider Section
 
 client-slider-items:
   - logo: "assets/images/clients-logo/client-logo-1.png"
     url: "#"
-    
+
 #  - logo: "assets/images/clients-logo/client-logo-2.png"
 #    url: "#"
 #
