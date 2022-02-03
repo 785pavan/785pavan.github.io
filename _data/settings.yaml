@@ -14,7 +14,7 @@ copyright: Copyright &copy; 2022 Pavan Kumar Kandapagari
 menu:
   - { name: About, link: "/about" }
   - { name: Blog, link: "/blog" }
-  - { name: Portfolio, link: "/portfolio" }
+  - { name: Projects, link: "/Projects" }
   - { name: Contact, link: "/contact" }
 
 #-------------------------------
@@ -189,27 +189,27 @@ education:
 #  }
 
 #-------------------------------
-# Portfolio (Section and Page)
+# Projects (Section and Page)
 
-# Portfolio Home Section
-portfolio-home-items:
-  - image: "assets/images/portfolio/obj_det.png"
+# Projects Home Section
+Projects-home-items:
+  - image: "assets/images/Projects/item-1.png"
     url: "#"
 
-#  - image : "assets/images/portfolio/item-2.png"
-#    url: "#"
-#
-#  - image : "assets/images/portfolio/item-3.png"
-#    url: "#"
-#
-#  - image : "assets/images/portfolio/item-4.png"
-#    url: "#"
-#
-#  - image : "assets/images/portfolio/item-5.png"
-#    url: "#"
+  - image: "assets/images/Projects/item-2.png"
+    url: "#"
 
-# Portfolio Page
-portfolio-label:
+  - image: "assets/images/Projects/item-3.png"
+    url: "#"
+
+  - image: "assets/images/Projects/item-4.png"
+    url: "#"
+
+  - image: "assets/images/Projects/item-5.png"
+    url: "#"
+
+# Projects Page
+Projects-label:
   - { title: "Software Developer", type: "design" }
 #- {
 #    title : "BRANDING",
@@ -220,54 +220,54 @@ portfolio-label:
 #    type : "illustration"
 #  }
 
-portfolio-items:
-  - image: "assets/images/portfolio/item-1.png"
+Projects-items:
+  - image: "assets/images/Projects/item-1.png"
     url: "#"
-    portfolio-type:
+    Projects-type:
       - type: "design"
       - type: "illustration"
 
-#  - image : "assets/images/portfolio/item-2.png"
+#  - image : "assets/images/Projects/item-2.png"
 #    url: "#"
-#    portfolio-type:
+#    Projects-type:
 #      - type: "branding"
 #
-#  - image : "assets/images/portfolio/item-3.png"
+#  - image : "assets/images/Projects/item-3.png"
 #    url: "#"
-#    portfolio-type:
+#    Projects-type:
 #      - type: "illustration"
 #
-#  - image : "assets/images/portfolio/item-6.png"
+#  - image : "assets/images/Projects/item-6.png"
 #    url: "#"
-#    portfolio-type:
+#    Projects-type:
 #      - type: "design"
 #      - type: "branding"
 #
-#  - image : "assets/images/portfolio/item-8.png"
+#  - image : "assets/images/Projects/item-8.png"
 #    url: "#"
-#    portfolio-type:
+#    Projects-type:
 #      - type: "illustration"
 #
-#  - image : "assets/images/portfolio/item-5.png"
+#  - image : "assets/images/Projects/item-5.png"
 #    url: "#"
-#    portfolio-type:
+#    Projects-type:
 #      - type: "design"
 #
-#  - image : "assets/images/portfolio/item-1.png"
+#  - image : "assets/images/Projects/item-1.png"
 #    url: "#"
-#    portfolio-type:
+#    Projects-type:
 #      - type: "branding"
 #
-#  - image : "assets/images/portfolio/item-3.png"
+#  - image : "assets/images/Projects/item-3.png"
 #    url: "#"
-#    portfolio-type:
+#    Projects-type:
 #      - type: "design"
 #      - type: "illustration"
 #      - type: "branding"
 #
-#  - image : "assets/images/portfolio/item-7.png"
+#  - image : "assets/images/Projects/item-7.png"
 #    url: "#"
-#    portfolio-type:
+#    Projects-type:
 #      - type: "illustration"
 
 #-------------------------------
