@@ -89,22 +89,18 @@ skills-title: Skills
 skills:
   - { name: Python, color: "#fdb157", value: "90%" }
   - { name: Java, color: "#9473e6", value: "50%" }
-  - { name: Machine/Deep Learning, color: "#bdecf6", value: "85%" }
+  - { name: Machine/ Deep Learning, color: "#bdecf6", value: "85%" }
   - { name: PyTorch, color: "#ffbcaa", value: "75%" }
   - {
       name: Image Processing and computer vision,
       color: "#99ccff",
       value: "60%",
     }
-  - { name: GitLab, GitHub, color: "#99ff99", value: "75%" }
-  - {
-      name: Data processing and plotting (Numpy,
-      Pandas,
-      Matplotlib,
-      Seaborn),
-      color: "#33cccc",
-      value: "70%",
-    }
+  - { name: GitLab/ GitHub, color: "#99ff99", value: "75%" }
+  - { name: Data processing and plotting (Numpy/
+        Pandas/
+        Matplotlib/
+        Seaborn), color: "#33cccc", value: "70%" }
 
 #-------------------------------
 # Exprerience Section
@@ -112,13 +108,23 @@ skills:
 experience-title: Experience
 experience:
   - {
-      name: Junior UX Designer,
+      name: Software Developer/Deep Learning Engineer,
       icon: "icon-1.png",
-      date: "Jan 2007 - Feb 2009",
-      organization: "WEBEX",
+      date: "Aug 2020 - Present",
+      organization: "Agile Robots AG",
     }
-#- {name: UX & UI Designer, icon: 'icon-2.png', date: 'Mar 2009 - Aug 2014', organization: 'AUGMEDIX'}
-#- {name: Senior UI Designer, icon: 'icon-3.png', date: 'Sep 2014 - Present', organization: 'THEMEFISHER'}
+  - {
+      name: UX & UI Designer,
+      icon: "icon-2.png",
+      date: "Mar 2009 - Aug 2014",
+      organization: "AUGMEDIX",
+    }
+  - {
+      name: Senior UI Designer,
+      icon: "icon-3.png",
+      date: "Sep 2014 - Present",
+      organization: "THEMEFISHER",
+    }
 
 #-------------------------------
 # Education Section
