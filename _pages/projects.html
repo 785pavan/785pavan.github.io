@@ -2,7 +2,7 @@
 layout: page
 title: Projects
 ---
-<!-- Projects -->
+<!-- projects -->
 <section class="section">
   <div class="container">
     <div class="row mb-5">
@@ -11,7 +11,7 @@ title: Projects
           <label class="btn btn-sm btn-primary active">
             <input type="radio" name="shuffle-filter" value="all" checked="checked" />All
           </label>
-          {% for label in site.data.settings.Projects-label %}
+          {% for label in site.data.settings.projects-label %}
           <label class="btn btn-sm btn-primary">
             <input type="radio" name="shuffle-filter" value="{{ label.type }}" />{{ label.title }}
           </label>
@@ -20,11 +20,11 @@ title: Projects
       </div>
     </div>
     <div class="row shuffle-wrapper">
-      {% for item in site.data.settings.Projects-items %}
+      {% for item in site.data.settings.projects-items %}
       <div class="col-lg-4 col-6 mb-4 shuffle-item"
-        data-groups="[{% for Projects in item.Projects-type %}{% if forloop.first == true %}{% else %},{% endif %}&quot;{{ Projects.type }}&quot;{% endfor %}]">
+        data-groups="[{% for Projects in item.projects-type %}{% if forloop.first == true %}{% else %},{% endif %}&quot;{{ projects.type }}&quot;{% endfor %}]">
         <div class="position-relative rounded hover-wrapper">
-          <img src="{{ site.baseurl }}/{{ item.image }}" alt="Projects-image" class="img-fluid rounded w-100 d-block">
+          <img src="{{ site.baseurl }}/{{ item.image }}" alt="projects-image" class="img-fluid rounded w-100 d-block">
           <div class="hover-overlay">
             <div class="hover-content">
               <a class="btn btn-light btn-sm" href="{{ item.url }}">view project</a>
@@ -36,7 +36,7 @@ title: Projects
     </div>
   </div>
 </section>
-<!-- /Projects -->
+<!-- /projects -->
 
 <!-- clients -->
 <section class="section bg-light">
