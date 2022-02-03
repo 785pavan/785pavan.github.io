@@ -211,14 +211,8 @@ projects-home-items:
 # Projects Page
 projects-label:
   - { title: "Software Developer", type: "design" }
-#- {
-#    title : "BRANDING",
-#    type : "branding"
-#  }
-#- {
-#    title : "ILLUSTRATION",
-#    type : "illustration"
-#  }
+  - { title: "BRANDING", type: "branding" }
+  - { title: "ILLUSTRATION", type: "illustration" }
 
 projects-items:
   - image: "assets/images/projects/item-1.png"
