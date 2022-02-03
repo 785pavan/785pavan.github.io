@@ -14,7 +14,7 @@ copyright: Copyright &copy; 2022 Pavan Kumar Kandapagari
 menu:
   - { name: About, link: "/about" }
   - { name: Blog, link: "/blog" }
-  - { name: Projects, link: "/Projects" }
+  - { name: Projects, link: "/projects" }
   - { name: Contact, link: "/contact" }
 
 #-------------------------------
@@ -221,9 +221,9 @@ projects-label:
 #  }
 
 projects-items:
-  - image: "assets/images/Projects/item-1.png"
+  - image: "assets/images/projects/item-1.png"
     url: "#"
-    Projects-type:
+    projects-type:
       - type: "design"
       - type: "illustration"
 

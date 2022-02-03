@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Projects
+title: projects
 ---
 <!-- projects -->
 <section class="section">
@@ -22,7 +22,7 @@ title: Projects
     <div class="row shuffle-wrapper">
       {% for item in site.data.settings.projects-items %}
       <div class="col-lg-4 col-6 mb-4 shuffle-item"
-        data-groups="[{% for Projects in item.projects-type %}{% if forloop.first == true %}{% else %},{% endif %}&quot;{{ projects.type }}&quot;{% endfor %}]">
+        data-groups="[{% for projects in item.projects-type %}{% if forloop.first == true %}{% else %},{% endif %}&quot;{{ projects.type }}&quot;{% endfor %}]">
         <div class="position-relative rounded hover-wrapper">
           <img src="{{ site.baseurl }}/{{ item.image }}" alt="projects-image" class="img-fluid rounded w-100 d-block">
           <div class="hover-overlay">
