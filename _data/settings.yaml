@@ -108,7 +108,7 @@ skills:
 experience-title: Experience
 experience:
   - {
-      name: Software Developer/Deep Learning Engineer,
+      name: Software Developer/ Deep Learning Engineer,
       icon: "icon-1.png",
       date: "Aug 2021 - Present",
       organization: "Agile Robots AG, Munich",
@@ -129,7 +129,7 @@ experience:
       name: Teaching Assistant,
       icon: "icon-1.png",
       date: "OCT 2019 - JAN 2020",
-      organization: "Otto Von Guericke Universität, Magdeburg",
+      organization: "Otto von Guericke Universität, Magdeburg",
     }
   - {
       name: Production Engineer,
@@ -144,13 +144,25 @@ experience:
 education-title: Education
 education:
   - {
-      name: Masters in DigitalEningeering,
+      name: Masters in Digital Eningeering,
       date: "2020",
-      organization: "Otto von Guericke University",
+      organization: "Otto von Guericke Universität, Magdeburg, Germany",
     }
-#- {name: Honours in Fine Arts, date: '2004', organization: 'Harvard University'}
-#- {name: Higher Secondary Certificat, date: '2000', organization: 'Cardiff School'}
-#- {name: Secondary School Certificate, date: '1998', organization: 'Cardiff School'}
+  - {
+      name: Bachelor of Technology in Mechanical Engineering,
+      date: "2015",
+      organization: "JNTU, Ananthapur, India",
+    }
+  - {
+      name: Higher Secondary Certificate,
+      date: "2011",
+      organization: "Sri Chaitanya Junior Kalashala, India",
+    }
+  - {
+      name: Secondary School Certificate,
+      date: "2009",
+      organization: "King English Medium School, India",
+    }
 
 #-------------------------------
 # Services Section
